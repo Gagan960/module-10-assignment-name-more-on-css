@@ -1,0 +1,43 @@
+<!-- Q1 Create a navigation bar similar to the below-mentioned image. The navigation bar must 
+contain 5 navigation links that are properly placed within the navigation bar using the CSS box 
+model. The navigation items must change their text color on hover. -->
+
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <title>Styled Navigation Bar</title> 
+  <style> 
+    body { 
+      margin: 0; 
+      font-family: Arial, sans-serif; 
+    } 
+    .nav { 
+      display: flex; 
+     
+      background-color: #6495ed; 
+      padding: 20px; 
+    } 
+    .nav a { 
+      margin: 0 15px; 
+      color: white; 
+      margin-right: 50px; 
+      text-decoration: none; 
+      font-size: 18px; 
+      padding: 8px 12px; 
+    } 
+    .nav a:hover { 
+      color: black; 
+    } 
+  </style> 
+</head> 
+<body> 
+  <div class="nav"> 
+    <a href="#">Home</a> 
+    <a href="#">About Us</a> 
+    <a href="#">Contact</a> 
+    <a href="#">Blog</a> 
+    <a href="#">Login</a> 
+  </div> 
+</body> 
+</html>
